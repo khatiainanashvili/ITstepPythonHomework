@@ -45,7 +45,7 @@ rand = random.randint(0, 20)
 
 
 
-while True:
+while life > 0:
    guess = int(input("enter your number... "))
    if guess < rand:
        life -= 1
@@ -54,14 +54,13 @@ while True:
    elif guess > rand:
        life -= 1
        print("low then you guess... life 5/", life)
-
-       if life == 0 :
-         print("You lose the game")
-         break
-       
+   elif guess == rand:
+       print("you win..")
+         
+         
    else:
-       print("you win")
-       break
+      print("You lose the game")
+
    
   
         
