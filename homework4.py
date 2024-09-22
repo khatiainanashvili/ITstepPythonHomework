@@ -25,6 +25,7 @@ else:  print("შეყვანილი ტექსტი არ არის
 
 
 input_text = input("enter text: ")
+
 ascii_codes = [ord(char) for char in input_text]
 
 print("ASCII Codes:", ascii_codes)
