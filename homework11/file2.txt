@@ -1,0 +1,2 @@
+This is the content of the second file.
+Line 2 of the second file.
